@@ -1,37 +1,9 @@
 import 'dart:math';
-import 'package:circle_degree/constants/colors.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_circle_grade/constants/colors.dart';
 import 'package:sizer/sizer.dart';
 
 const int size = 50;
-
-class CircleView extends StatefulWidget {
-  const CircleView(
-      {super.key, this.min, this.max, this.value, this.colors, this.image});
-  final double? min;
-  final double? max;
-  final double? value;
-  final List<Color>? colors;
-  final String? image;
-
-  @override
-  State<CircleView> createState() => _CircleViewState();
-}
-
-class _CircleViewState extends State<CircleView> {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: CircleDegree(
-        max: widget.max ?? 100,
-        min: widget.min ?? 0,
-        value: widget.value ?? 50,
-        colors: widget.colors,
-        image: widget.image,
-      ),
-    );
-  }
-}
 
 class CircleDegree extends StatefulWidget {
   const CircleDegree(
