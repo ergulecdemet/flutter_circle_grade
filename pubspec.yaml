@@ -1,5 +1,8 @@
 name: circle_degree
-description: "A new Flutter project."
+description: "This package provides a customizable gauge indicator that can be used in your Flutter application. The gauge indicator is ideal for adding a modern and interactive element to your application's user interface. It offers quick and easy integration."
+author: "Demet Ergüleç<ergulecdemet@gmail.com>"
+homepage: "https://github.com/ergulecdemet/flutter_circle_grade"
+
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
