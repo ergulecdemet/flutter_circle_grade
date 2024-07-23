@@ -36,18 +36,19 @@ class AppColors {
     800: Color(0xFF0E8A8A), // Koyu ton
     900: Color(0xFF086568), // En koyu ton
   });
-  final MaterialColor greyColor = const MaterialColor(0xFF353535, <int, Color>{
-    50: Color(0xFFE3E4E4), // Çok açık ton
-    100: Color(0xFFB8BBBB), // Daha açık ton
-    200: Color(0xFF8A8F8F), // Orta açık ton
-    300: Color(0xFF5B6464), // Ana renkten biraz daha açık
-    400: Color(0xFF394242), // Orta koyu ton
-    500: Color(0xFF353535), // Ana renk
-    600: Color(0xFF393939), // Koyu ton
-    700: Color(0xFF080F0F), // Daha koyu ton
-    800: Color(0xFF050B0B), // Koyu ton
-    900: Color(0xFF020505), // En koyu ton
+  final MaterialColor greyColor = const MaterialColor(0xFF4A4A4A, <int, Color>{
+    50: Color(0xFFEDEDED), // Çok açık ton
+    100: Color(0xFFD1D1D1), // Daha açık ton
+    200: Color(0xFFB5B5B5), // Orta açık ton
+    300: Color(0xFF999999), // Ana renkten biraz daha açık
+    400: Color(0xFF7E7E7E), // Orta koyu ton
+    500: Color(0xFF646464), // Ana renk
+    600: Color(0xFF4A4A4A), // Koyu ton
+    700: Color(0xFF333333), // Daha koyu ton
+    800: Color(0xFF1F1F1F), // Koyu ton
+    900: Color(0xFF0A0A0A), // En koyu ton
   });
+
   final MaterialColor primary2Color = const MaterialColor(
     0xFF0474E6, // #0481FE renginin bir ton koyusu
     <int, Color>{
