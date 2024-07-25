@@ -3,8 +3,6 @@
 You can use the package by adding the sizer package to the application.
 The application is developing and dependencies will be revised over time.
 
-**Dependent package:** [Sizer](https://pub.dev/packages/sizer)
-
 # Use
 ```dart
 CircleDegree(
